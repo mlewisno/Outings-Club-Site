@@ -179,14 +179,60 @@ h2 {
 
 #divider_4 {
     height: 200px;
-    background-color: #FFFFFF;
+    background-color: #000000;
 }
 
 #icns_text {
-    color: black;
+    color: white;
     top: 20px;
     text-align: center;
     margin: auto auto;
     top: 30px;
     font-size: 50px;
+}
+
+.image_wrapper {
+    width: 150px;
+    height: 60px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+
+
+#first_image_wrapper {
+    width: 8.33%;
+    float: left;
+}
+
+#activity_icons {
+    height: 60px;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    
+}
+
+#activity_icons:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#spacer {
+    width: 75px;
+    height: 60px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
 }
