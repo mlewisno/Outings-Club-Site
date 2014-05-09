@@ -14,8 +14,6 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it in */
             if( bottom_of_window > fade_zone && !faded_in){
                 $(this).animate({'opacity':'1'},3000);
-                $( "#nav_menu_wrapper" ).attr("position", "fixed");
-                faded_in = 1;
             }
             
         }); 

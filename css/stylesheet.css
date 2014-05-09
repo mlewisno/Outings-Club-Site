@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     font-family: sans-serif;
+    height: 100%;
 }
 
 body{
@@ -36,11 +37,7 @@ body{
     margin-right: auto;
     width: 50%;
     color: white;
-    background-color: #1ea5e2;
-    opacity: 0.7;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #056089;
+    background-color: #000000;
 }
 
 #welcome {
@@ -300,6 +297,7 @@ h1 {
 	font-weight: bold;
     zoom: 1;margin-top: 1%;
     color: white;
+    
 }
 
 .stretcher {
@@ -326,4 +324,9 @@ a {
 .icons {
     height: 60px;
     opacity: 0;
+}
+
+#nav_menu_container {
+    width: 100%;
+    background-color: black;
 }
