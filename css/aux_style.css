@@ -63,7 +63,8 @@ li>a{
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+    text-decoration: underline;
 }
 
 #nav_menu_wrapper {
@@ -107,4 +108,23 @@ p {
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+img {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.top_link {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+}
+
+#footer {
+    text-align: center;
+    color: white;
 }
